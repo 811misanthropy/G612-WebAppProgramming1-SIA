@@ -1,0 +1,23 @@
+body {
+    background-color:lavenderblush;
+}
+h1 {
+    color:darkolivegreen;
+}
+h4 {
+    color:darkred;
+}
+p {
+    color:teal;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
